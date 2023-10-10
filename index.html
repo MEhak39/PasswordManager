@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassM - Your Personal Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">PasM</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+
+
+    </nav>
+    <div class="container">
+       
+       <div>
+        <h1>Password Manager</h1>
+        <p>        
+        We're thrilled to have you here! Your online security matters, and that's why you've made the right choice by visiting
+        our Password Manager platform.
+    </p>
+        <h2>Your Passwords</h2>
+
+    <table>
+        <tr>
+            <th>Website</th>
+            <th>UserName</th>
+            <th>password</th>
+            <th>Delete</th>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td>taneja_mehak</td>
+        </tr>
+        <tr>
+            <td>Mehak</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Mehak</td>
+            <td>20</td>
+        </tr>
+    </table>
+
+        <h2>Add a Password</h2>
+        <form action="/submit" method="post">
+
+            <!-- username -->
+            <label for="userName">UserName:</label>
+            <input type="text" name="userName" id="userName" required>
+            <br><br>
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="number" name="password" id="password" required>
+            <br><br>
+            <!--Submit-->
+            <button id="btn">Submit</button>
+            
+        </form>
+        </div>
+        <img class="back-img" src="./Assets/Back photo2.jpg" alt="">
+    </div>
+</body>
+</html>
